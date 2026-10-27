@@ -1,0 +1,34 @@
+/* Stijlen voor alle hoofdingen (Arial font + specifieke tekstdikte/grootte) */
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 1.8em;
+}
+
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: Arial, sans-serif;
+  font-size: 1.4em;
+}
+
+/* Stijlen voor alle paragrafen (Times New Roman + 1.2em grootte) */
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+}
+
+/* Classes voor de verschillende tekstkleuren van de paragrafen */
+.rood {
+  color: red;
+}
+
+.groen {
+  color: green;
+}
+
+.blauw {
+  color: blue;
+}

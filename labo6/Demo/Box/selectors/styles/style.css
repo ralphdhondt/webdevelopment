@@ -1,0 +1,10 @@
+body {
+  background-color: yellow;
+  font-size: 3em;
+}
+/*Inline CSS (style="color: green;") heeft normaal voorrang op gewone interne en externe CSS.
+Interne CSS (<style>) en externe CSS (<link>) hebben dezelfde voorrang.
+Bij gelijke specificiteit wint de regel die het laatst staat.*/
+p {
+  background-color: blue;
+}

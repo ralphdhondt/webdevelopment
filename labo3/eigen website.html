@@ -1,36 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <title>Ralph Dhondt</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mijn Personal Homepage</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<H1>
-Welkom bij mijn Personal Homepage
-</H1>
-<img src="demo/images/mijzelf.jpg" alt="Mijn foto" style="float: right; width: 300px;">
-<H2>
-  Wie ben ik?
-</H2>
-<p>
-  Ik ben Ralph Dhondt 18 jaar oud.
-</p>
-<h2>
-  Mijn adres:
-</h2>
-<p>
-  ik woon in de Roeselarestraat in Dentergem.
-</p>
-<H2>
-  Hoe kan je mij contacteren?
-</H2>
-<p>
-  Email : ralph.dhondt@student.vives.be
-  Tel : 0467025671
-</p>
-<p>
-  <a href="../labo4/hobbys.html">Naar mijn hobby's</a> |
-  <a href="../labo4/likes.html">Naar mijn likes</a>
-</p>
+
+<h1>Welkom bij mijn Personal Homepage</h1>
+
+<div class="intro-container">
+  <div class="tekst-deel">
+    <h2>Wie ben ik?</h2>
+    <p>Ik ben Ralph Dhondt 18 jaar oud.</p>
+
+    <h2>Mijn adres:</h2>
+    <p>Ik woon in de Roeselarestraat in Dentergem.</p>
+
+    <h2>Hoe kan je mij contacteren?</h2>
+    <p>Email : ralph.dhondt@student.vives.be Tel : 0467025671</p>
+    <p><a href="#">Naar mijn hobby's</a> | <a href="#">Naar mijn likes</a></p>
+  </div>
+
+  <div>
+    <img src="demo/images/mijzelf.jpg" alt="Profielfoto">
+  </div>
+</div>
+
+<h2>Vrienden</h2>
+<table class="vrienden-tabel">
+  <thead>
+  <tr>
+    <th>Voornaam</th>
+    <th>Familienaam</th>
+    <th>Postcode</th>
+    <th>Woonplaats</th>
+    <th>Telefoon</th>
+    <th>E-mail</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Jan</td>
+    <td>Janssens</td>
+    <td class="onbekend">?</td>
+    <td>Antwerpen</td>
+    <td>0412345678</td>
+    <td>jan@example.com</td>
+  </tr>
+  <tr class="alt">
+    <td>Sofie</td>
+    <td>Peeters</td>
+    <td>9000</td>
+    <td>Gent</td>
+    <td class="onbekend">?</td>
+    <td>sofie@example.com</td>
+  </tr>
+  <tr>
+    <td>Thomas</td>
+    <td>De Smet</td>
+    <td>3000</td>
+    <td>Leuven</td>
+    <td>0434567890</td>
+    <td>thomas@example.com</td>
+  </tr>
+  <tr class="alt">
+    <td>Emma</td>
+    <td>Wauters</td>
+    <td>8000</td>
+    <td>Brugge</td>
+    <td>0445678901</td>
+    <td>emma@example.com</td>
+  </tr>
+  <tr>
+    <td>Lars</td>
+    <td>Vermeulen</td>
+    <td>2800</td>
+    <td>Mechelen</td>
+    <td>0456789012</td>
+    <td>lars@example.com</td>
+  </tr>
+  </tbody>
+</table>
+
 </body>
 </html>

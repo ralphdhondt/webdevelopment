@@ -1,0 +1,218 @@
+/* Algemene basis en moderne opmaak */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #2d3748;
+  margin: 0;
+  padding: 40px 20px;
+  line-height: 1.6;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Hoofdtitel */
+h1 {
+  color: #1a365d;
+  font-size: 2.2em;
+  margin-top: 0;
+  border-bottom: 3px solid #3182ce;
+  padding-bottom: 10px;
+}
+
+/* Koppen */
+h2 {
+  color: #2b6cb0;
+  margin-top: 35px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 5px;
+}
+
+/* Flex-container voor tekst en foto naast elkaar */
+.intro-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.tekst-deel {
+  flex: 1;
+}
+
+/* Profielfoto strak vormgeven */
+img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+/* Links */
+a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Vrienden tabel styling (TableStyler / Opdracht 2 & 3) */
+.vrienden-tabel {
+  font: normal 12px/150% Geneva, Arial, Helvetica, sans-serif;
+  background: #fff;
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+  border: 9px solid #339900;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.vrienden-tabel td,
+.vrienden-tabel th {
+  padding: 8px 10px;
+}
+
+.vrienden-tabel thead th {
+  background-color: #029943;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  border-left: 8px solid #A3A3A3;
+}
+
+.vrienden-tabel thead th:first-child {
+  border-left: none;
+}
+
+.vrienden-tabel tbody td {
+  color: #006B1D;
+  border-left: 6px solid #DBDBDB;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/* Om en om kleuren van de rijen (even rijen met class="alt") */
+.vrienden-tabel tbody tr.alt td {
+  background: #EBEBEB;
+  color: #7D7D7D;
+}
+
+.vrienden-tabel tbody td:first-child {
+  border-left: none;
+}
+
+.vrienden-tabel tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Opdracht 3: Onbekende gegevens rood maken */
+.vrienden-tabel tbody td.onbekend {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+/* Algemene basis en moderne opmaak */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #2d3748;
+  margin: 0;
+  padding: 40px 20px;
+  line-height: 1.6;
+}
+
+/* Zet de hele pagina in een mooie gecentreerde 'kaart' (container) */
+body {
+  max-width: 950px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Hoofdtitel */
+h1 {
+  color: #1a365d;
+  font-size: 2.2em;
+  margin-top: 0;
+  border-bottom: 3px solid #3182ce;
+  padding-bottom: 10px;
+}
+
+/* Koppen */
+h2 {
+  color: #2b6cb0;
+  margin-top: 35px;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 5px;
+}
+
+
+
+
+/* Profielfoto strak vormgeven */
+img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+/* Links mooi maken */
+a {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Vrienden tabel modern en strak maken */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #2b6cb0;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+tr:hover {
+  background-color: #edf2f7;
+}
+
+td {
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 14px;
+  color: #4a5568;
+}
